@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family:  "Inria Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+}
+
+h1 {
+    margin: 0;
+    padding-left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 92px;
+    padding-top: 20px;
+    color: black;
+}
+
+
+.titolo{
+    margin: auto;
+    text-align: left;
+    background-color: #AC6C77;
+    
+
+}
+
+.immagini_titolo{
+    gap: 37px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    
+}
+
+.immagine_1{
+    width: 283.17px;
+  height: 449.43px;
+  background: url("img/i.png");
+ 
+}
+.immagine_2{
+    width: 283.17px;
+  height: 449.43px;
+  background: url("img/rosa.png");
+}
+.immagine_3{
+    width: 283.17px;
+  height: 449.43px;
+  background: url("img/r.png");
+}
+.immagine_4{
+    width: 283.17px;
+  height: 449.43px;
+  background: url("img/y.png");
+}
+.primo_testo p{
+    text-align: left;
+    padding: 10px;
+    margin-top: 40px;
+  margin-left: 95px;
+  font-size: 20px;
+
+}
+
+.prime_immagini{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 16px;
+    margin-top: 90px;
+    padding-left: 161px;
+    padding-right: 95px;
+
+}
+
+
+.seconda_slide{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+.secondo_testo p{
+    padding: 10px;
+    margin-top: 40px;
+  margin-left: 95px;
+  font-size: 20px;
+}
+
+.seconda_immagine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    width: 435px;
+    height: 298px;
+    background: url("IMG/k.png");
+    padding-top: 98px;
+    padding-left: 161px;
+    padding-right: 95px;
+    padding-bottom: 200px;
+}
+
+.terza_slide{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.terzo_testo p{
+    text-align: left;
+    padding: 10px;
+    margin-top: 40px;
+  margin-left: 95px;
+  font-size: 20px;
+}
+
+.terze_immagini{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 16px;
+    margin-top: 90px;
+    padding-left: 161px;
+    padding-right: 95px;
+}
+
+.quarta_slide{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
